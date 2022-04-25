@@ -1,0 +1,238 @@
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 15px;
+}
+.bg-black{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.custom-font-h3{
+    font-size: 40px;
+}
+
+.header-section img{
+    width: 134px;
+}
+.home-slider img{
+    height: 29rem;
+}
+.home-slider h2{ 
+    font-size: 48px; line-height: normal;
+    /* margin-bottom: 3rem; */
+}
+.home-slider h2 .head-title{
+    color: yellow;
+}
+.home-slider .btn-outline-light{
+    font-size: 22px; line-height: normal;
+    margin-bottom: 3rem;
+
+}
+
+.about-section .container{
+    border-radius: 10px;
+}
+.about-section h5{
+     font-size: 20px; line-height: 28px;
+     color: black;
+    }
+
+.why-section h4{
+    text-shadow: 0px 0px 0px gray, 0px -36px 1px rgb(50, 49, 49);
+    font-size: 40px;
+    color: white;
+    
+}
+.why-section h5{
+    color: black;
+}
+.why-section img{
+    height: 13rem;
+    width: 22rem;
+}
+
+.why-section .centered {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    color: white; 
+  }
+.why-section .card{
+    background-color: black;
+}
+.destination-section{
+    margin-top: 2rem;
+}
+.destination-section #destinationSlider img{
+    height: 26rem;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.destination-section #destinationSlider .vertical-over{
+    position: absolute;
+    top:5rem;
+    left:3rem;
+    height:28rem; 
+    width: 1rem; 
+    border-radius:.5rem ;
+    background-color: rgb(50, 49, 49);
+    box-shadow: .5px .5px .5px whitesmoke,1px 1px 1px whitesmoke;
+    
+}
+.item-section h4{
+    text-shadow: 0px 0px 0px gray, 0px -36px 1px rgb(50, 49, 49);
+    font-size: 40px;
+    color: white;
+    
+}
+.item-section p {
+    font-size: 15px;
+    line-height: 29px !important;
+    color: #fff
+  }
+  .item-section .card {
+    box-shadow: 0px 5px 16px rgba(223, 241, 223, 0.5);
+    transition: 0.8s;
+    background: #333;
+
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 7px !important
+  }
+  .item-section .card:after {
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    z-index: 9999;
+    height: 100%;
+    pointer-events: none
+  }
+  .item-section .card .layer {
+    position: absolute;
+    top: calc(100% - 5px);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#03a9f4, #e91ee3);
+    left: 0;
+    z-index: 1;
+    transition: 0.5s
+  }
+  .item-section .card:hover hr {
+    background-color: #fff
+  }
+  .item-section .card:hover h4 {
+    font-weight: 600
+  }
+  .item-section .card:hover p {
+    font-weight: 600
+  }
+  .item-section .card:hover .layer {
+    top: 0
+  }
+  .item-section .card .content {
+    position: relative;
+    z-index: 2
+  }
+  .item-section hr {
+    background-color: rgb(117, 117, 117);
+    width: 80% !important;
+    transition: 1s
+  }
+  .item-section .bold {
+    font-weight: 500
+  }
+
+
+  .contact-section{
+      /* height: 100%; */
+      background-repeat: no-repeat;
+      margin-left: 6rem;
+    
+  }
+  .contact-section .help{
+      width: 16.3rem;
+      height: 2.4rem;
+      color: gray;
+      border-radius: 4px;
+  }
+  .footer img{
+    width: 150px;
+    padding-top: 0;
+  }
+ 
+
+
+
+
+
+@media (max-width: 479px) {
+    .home-slider h2 {
+        font-size: 19px
+    }
+    .item-section p {
+       padding: 0 !important
+    }
+     .contact-section .help {
+        width: 23.7rem;
+    }
+   .item-section h4 {
+    text-shadow: grey 0px 0px 0px, rgb(50 49 49) 0px -25px 0px;
+    font-size: 28px;    }
+   .destination-section #destinationSlider .vertical-over{
+       left: 0rem;
+    }
+   
+}
+
+
+
+
+@media (max-width:992px){
+    .home-slider h2{
+        font-size: 19px;
+    }
+    .home-slider img{
+        height: 18rem;
+    }
+    .about-section h5 {
+        font-size: 12px;
+        line-height: 20px;
+        color: black;
+    }
+    .about-section a{
+        margin-bottom: 6px;
+    }
+    .why-section img {
+        /* height: 13rem;
+        width: 22rem; */
+        margin-bottom: 1rem;
+    }
+    .contact-section{
+        margin-left: 0rem;
+    }
+    .contact-section .help {
+        width: 21.7rem;
+    }
+    .destination-section .text-warning{
+        font-size: 1.7rem;
+    }
+    .destination-section .text-white{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
